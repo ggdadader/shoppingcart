@@ -1,0 +1,91 @@
+
+
+html,
+body,
+main,
+div,
+span,
+p,
+a,
+img,
+ul,
+li,
+form,
+label,
+footer,
+header,
+nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+/* HTML5 display-role reset for older browsers */
+footer,
+header,
+label {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+header,
+main,
+footer {
+  width: 100%;
+}
+.btn,
+button,
+button:focus,
+input:focus,
+textarea:focus,
+select,
+select:focus,
+a:focus {
+  outline: 0px !important;
+}
+button {
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+/** basic setting **/
+.container {
+  margin: 50px auto;
+  max-width: 90%;
+  padding: 0 16px 0 16px;
+}
+
+
+
+.main-container {
+  display: flex;
+  position: relative;
+}
+.main-container .form-panel {
+  flex: 1;
+  margin-right: 130px;
+}
+.main-container .cart-panel {
+  width: 40%;
+  height: 492px;
+  margin-top: 100px;
+}
+.cart-panel{
+  border-radius: 5px
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Noto+Sans+TC&display=swap");
